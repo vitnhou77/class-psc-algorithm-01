@@ -1,5 +1,9 @@
 # Divertidamente
 
+<p align="center">
+    <img src="./src/divertida-mente.jpg"><br>
+</p>
+
 "Com a mudança para uma nova cidade, as emoções de Riley, que tem apenas 11 anos de idade, ficam extremamente agitadas. <br>
 Uma confusão na sala de controle do seu cérebro deixa a Alegria e a Tristeza de fora, afetando a vida de Riley radicalmente."
 
