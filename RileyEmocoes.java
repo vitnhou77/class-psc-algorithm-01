@@ -18,7 +18,7 @@ public class RileyEmocoes {
             tristeza += 30;
         }
         
-        System.out.println("Digite as notas das três provas (A1, A2, A3): ");
+        System.out.println("Digite as notas das tres provas (A1, A2, A3): ");
         double A1 = sc.nextDouble();
         double A2 = sc.nextDouble();
         double A3 = sc.nextDouble();
@@ -31,20 +31,20 @@ public class RileyEmocoes {
             tristeza += 50;
         }
 
-        System.out.print("Quantos dos 10 exercícios de programação Riley fez? ");
+        System.out.print("Quantos dos 10 exercicios de programação Riley fez? ");
         int feitos = sc.nextInt();
 
         alegria += feitos * 10;
         tristeza += (10 - feitos) * 10;
 
-        System.out.println("Pontuação final:");
+        System.out.println("Pontuaçao final: ");
         System.out.println("Alegria: " + alegria + " pontos");
         System.out.println("Tristeza: " + tristeza + " pontos");
 
         if (alegria > tristeza) {
-            System.out.println("A mudança para a nova cidade foi uma experiência incrível para a Riley.");
+            System.out.println("A mudança para a nova cidade foi uma experiencia incrível para a Riley.");
         } else {
-            System.out.println("A mudança para a nova cidade foi uma experiência desagradável para a Riley.");
+            System.out.println("A mudança para a nova cidade foi uma experiencia desagradável para a Riley.");
         }
 
         sc.close();
